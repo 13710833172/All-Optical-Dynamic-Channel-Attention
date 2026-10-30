@@ -2,8 +2,6 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> **Status: Research concept / proposal — pre-implementation.** This repository documents a proposed optical architecture and its physical assumptions. No VCSOA devices have been characterized for this project, no end-to-end optical prototype has been built, and no classification, latency, or energy results are claimed.
-
 ## Overview
 
 We propose **input-adaptive, all-optical channel attention** for free-space diffractive neural computing. The idea is to keep the learned diffractive elements **static at inference** while deriving a channel-dependent optical control signal from each incoming optical feature. A **broad-area vertical-cavity semiconductor optical amplifier (VCSOA)** would then implement dynamic channel recalibration through **carrier-mediated cross-gain modulation (XGM)**.
